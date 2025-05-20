@@ -40,3 +40,18 @@ This lab demonstrates how to use the **ADC12_B** (successive approximation regis
 ---
 
 ## UART Output Example
+
+Joystick X-Axis ADC Value: 2017
+Joystick Y-Axis ADC Value: 1982
+
+---
+
+## Skills Demonstrated
+- ADC initialization and sampling control
+- Channel multiplexing and end-of-sequence detection
+- UART driver functions for character and integer output
+- Delay-based sampling loop for real-time user feedback
+
+---
+
+This lab showcases low-level sensor integration and data handling — a crucial skill for embedded systems engineers working with analog inputs and microcontroller peripherals.
