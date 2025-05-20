@@ -40,7 +40,6 @@ This lab demonstrates how to use the **ADC12_B** (successive approximation regis
 ---
 
 ## UART Output Example
-
 Joystick X-Axis ADC Value: 2017
 Joystick Y-Axis ADC Value: 1982
 
