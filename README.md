@@ -84,7 +84,7 @@ These projects highlight:
 
 **Destiny Ellenwood**  
 📍 Computer Engineering | University of Central Florida  
-🔗 [LinkedIn]([https://www.linkedin.com/in/destinyellenwood/]) 
+🔗 [LinkedIn](https://www.linkedin.com/in/destinyellenwood/) 
 ---
 
 ## 📜 License
