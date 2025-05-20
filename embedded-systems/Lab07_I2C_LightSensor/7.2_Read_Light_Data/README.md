@@ -21,3 +21,20 @@ This program configures the OPT3001 light sensor via I2C and reads real-time amb
   - Sends the result over UART
 
 Example Output:
+
+OPT3001 Light Sensor Test
+Reading #1: Lux = 121
+Reading #2: Lux = 135
+
+---
+
+## Key Concepts
+- 16-bit I2C read/write with register addressing
+- I2C repeated start and STOP management
+- UART formatted output of floating-point approximations
+- Real-time sensor data streaming
+
+---
+
+## Source Files
+- `main.c` — Contains UART, I2C, sensor config, and lux reading loop
