@@ -63,10 +63,10 @@ Both tasks run independently using **FreeRTOS**, which ensures the LED blinks on
 
 1. Go to https://wokwi.com and start a new ESP32 Project.
 2. In the new project:
-    - Replace the default `main.c` with the code from: [Application1/src/main.c](Application1/src/main.c)
-3. Create or replace the `diagram.json` file with the layout from: [Application1/diagram.json](Application1/diagram.json)
+    - Replace the default `main.c` with the code from: [Application1/src/main.c](/src/main.c)
+3. Create or replace the `diagram.json` file with the layout from: [Application1/diagram.json](/diagram.json)
     - Make sure it connects an LED to GPIO 4 as used in the code.
-4. (Optional) Add the simulator config from: [Application1/wokwi.toml](Application1/wokwi.toml)
+4. (Optional) Add the simulator config from: [Application1/wokwi.toml](/wokwi.toml)
 5. Click the green “Start Simulation” ▶ button in Wokwi.
 
 6. Watch the serial console print:
