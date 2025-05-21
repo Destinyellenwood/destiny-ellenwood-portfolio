@@ -90,6 +90,7 @@ UART is not used in this lab — all output is visual via the LCD.
 
 **Screen 2: Counter + Shapes**  
 ![Screen 2](assets/lab%209%20second%20screen.png)
+
 ---
 
 This lab demonstrates professional-grade embedded system design — integrating low-level communication protocols, user input, graphics APIs, and multitasking logic all in a real-time system.
