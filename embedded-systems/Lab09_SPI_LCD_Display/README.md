@@ -51,8 +51,27 @@ This lab introduces the use of the **Serial Peripheral Interface (SPI)** to cont
 
 ---
 
+## 🎨 Graphics (via GrLib)
+
+This lab uses **TI’s GrLib** graphics library to:
+- Draw shapes (rectangles, circles, lines)
+- Render text with multiple fonts
+- Display an image from `logo.c`
+- Switch visual states based on user input
+
+---
+
 ## UART?  
 UART is not used in this lab — all output is visual via the LCD.
+
+---
+
+## 📝 SPI Configuration
+
+- Mode: **SPI Mode 0** (Clock polarity 0, phase 0)
+- Clock: **SMCLK at 8 MHz**
+- Interface: **3-pin SPI** (CS driven manually)
+- Half-duplex (LCD only receives data)
 
 ---
 
@@ -61,6 +80,16 @@ UART is not used in this lab — all output is visual via the LCD.
 - Combine low-level hardware config with high-level graphical output
 - Handle screen logic and state switching in embedded C
 - Manage Timer A interrupts to trigger screen refresh
+
+---
+
+## 📷 Screenshots
+
+**Screen 1: Logo Display**  
+![Screen 1](assets/snoopy%20image.png)
+
+**Screen 2: Counter + Shapes**  
+![Screen 2](assets/second%20screen.png)
 
 ---
 
