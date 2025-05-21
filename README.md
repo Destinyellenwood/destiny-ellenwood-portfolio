@@ -78,6 +78,7 @@ These projects demonstrate:
   - LPM3 with interrupts and event-driven wake-up
 - 🎨 **User Interfaces**
   - LCD digit display, graphics library (grlib), live counters
+- 🤖 **Machine Learning**: CNN architecture, training & evaluation with TensorFlow
 
 ---
 
