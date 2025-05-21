@@ -1,8 +1,8 @@
-# Embedded & Real-Time Systems Projects
+# Embedded, Real-Time & CS Projects Portfolio
 
-Welcome! This repository showcases a collection of hands-on **embedded systems** and **real-time operating systems (RTOS)** projects completed using the **MSP430FR6989** and **ESP32** microcontrollers. These projects demonstrate direct control of hardware through C programming and real-time task management using FreeRTOS.
+Welcome! This repository showcases a collection of hands-on **embedded systems**, **real-time operating systems (RTOS)**, and **computer science** projects developed using the **MSP430FR6989**, **ESP32**, and **Python/Java**. These projects span low-level hardware control, RTOS multitasking, data structures, and deep learning applications.
 
-> 🎓 Developed as part of coursework at the University of Central Florida (UCF), these labs and applications cover GPIO, ADC, UART, SPI, I2C, LCD control, RTOS multitasking, timers, and more.
+> 🎓 Developed as part of coursework at the University of Central Florida (UCF), these labs demonstrate practical engineering skills across microcontroller programming, real-time systems, algorithms, and AI.
 
 ---
 
@@ -47,6 +47,23 @@ These projects highlight:
 
 ---
 
+### 🧠 [`ucf-cs-projects/`](./ucf-cs-projects/)
+Java and Python-based academic CS projects:
+
+| Project | Description |
+|---------|-------------|
+| [`cnn-classifier`](./ucf-cs-projects/cnn-classifier) | **TensorFlow CNN** for MNIST digit recognition (>98% accuracy) |
+| [`skiplist-implementation`](./ucf-cs-projects/skiplist-implementation) | Custom `SortedSet<T>` implementation using a probabilistic skip list |
+| [`two-four-tree-implementation`](./ucf-cs-projects/two-four-tree-implementation) | Balanced 2-4 tree with benchmarking against Java's `TreeSet` |
+
+These projects demonstrate:
+- Object-oriented design (Java)
+- Data structures and algorithm implementation
+- Python ML workflows with TensorFlow
+- Benchmarking and analysis of search tree performance
+
+---
+
 ## 💡 Skills Demonstrated
 
 - 🧠 **Microcontroller Configuration**
@@ -67,10 +84,12 @@ These projects highlight:
 ## 🛠️ Tools & Technologies
 
 - **Code Composer Studio** (MSP430 projects)
-- **PlatformIO + VSCode** (ESP32 / FreeRTOS)
+- **PlatformIO + VSCode** (ESP32 FreeRTOS)
 - **Wokwi** (ESP32 simulation)
-- **TI grlib** (LCD graphics)
-- **C programming** (no OS abstraction)
+- **Java, C, Python**
+- **TensorFlow/Keras**
+- **TI GrLib** (LCD graphics)
+- **GitHub + GitHub Desktop**
 
 ---
 
