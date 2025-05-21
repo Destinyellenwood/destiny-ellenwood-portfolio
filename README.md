@@ -77,6 +77,7 @@ These projects highlight:
 ## 📷 Preview
 
 <img src="./embedded-systems/Lab09_SPI_LCD_Display/assets/snoopy image.png" alt="LCD Graphics Demo" width="500"/>
+<img src="./embedded-systems/Lab09_SPI_LCD_Display/assets/second screen.png" alt="LCD Graphics Demo" width="500"/>
 
 ---
 
