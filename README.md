@@ -49,10 +49,10 @@ These projects highlight:
 
 ### 🧠 [`ucf-cs-projects/`](./ucf-cs-projects/)
 Java and Python-based academic CS projects:
-
+ucf-cs-projects/cnn-classifer
 | Project | Description |
 |---------|-------------|
-| [`cnn-classifier`](ucf-cs-projects/cnn-classifier) | **TensorFlow CNN** for MNIST digit recognition (>98% accuracy) |
+| [`cnn-classifier`](ucf-cs-projects/cnn-classifer) | **TensorFlow CNN** for MNIST digit recognition (>98% accuracy) |
 | [`skiplist-implementation`](ucf-cs-projects/skiplist-implementation) | Custom `SortedSet<T>` implementation using a probabilistic skip list |
 | [`two-four-tree-implementation`](ucf-cs-projects/two-four-tree-implementation) | Balanced 2-4 tree with benchmarking against Java's `TreeSet` |
 
