@@ -4,7 +4,7 @@ UCFID: 5276398
 Major Project: Skip List
 
 */
-package skiplist;
+//package skiplist;
 
 import java.util.*;
 
