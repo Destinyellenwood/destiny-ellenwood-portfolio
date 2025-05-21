@@ -24,10 +24,10 @@ Covers 9 labs using the MSP430FR6989 covering:
 | [Lab 9](./embedded-systems/Lab09_SPI_LCD_Display) | SPI + Graphics | LCD display with shapes and logo |
 
 Each lab folder includes:
-- 📄 `README.md` documentation
-- 💾 `main.c` source code
-- 🔁 UART/LCD/ADC/SPI integrations
-- 🔋 Low-power optimization
+- `README.md` documentation
+-  `main.c` source code
+-  UART/LCD/ADC/SPI integrations
+-  Low-power optimization
 
 ---
 
@@ -66,19 +66,19 @@ These projects demonstrate:
 
 ## 💡 Skills Demonstrated
 
-- 🧠 **Microcontroller Configuration**
+-  **Microcontroller Configuration**
   - GPIO, ADC12_B, eUSCI UART/I2C/SPI modules
-- 📟 **Peripheral Communication**
+-  **Peripheral Communication**
   - LCD display, light sensor (OPT3001), joystick
-- 💬 **Serial Protocols**
+-  **Serial Protocols**
   - UART (TX/RX), I2C, SPI (LCD graphics)
-- 📈 **Real-Time Task Management**
+-  **Real-Time Task Management**
   - FreeRTOS on ESP32 with Wokwi simulation
-- ⚡ **Low Power Modes**
+-  **Low Power Modes**
   - LPM3 with interrupts and event-driven wake-up
-- 🎨 **User Interfaces**
+-  **User Interfaces**
   - LCD digit display, graphics library (grlib), live counters
-- 🤖 **Machine Learning**: CNN architecture, training & evaluation with TensorFlow
+-  **Machine Learning**: CNN architecture, training & evaluation with TensorFlow
 
 ---
 
@@ -107,8 +107,4 @@ These projects demonstrate:
 📍 Computer Engineering | University of Central Florida  
 🔗 [LinkedIn](https://www.linkedin.com/in/destinyellenwood/) 
 ---
-
-## 📜 License
-
-MIT License — free to use, learn from, and build upon.
 
