@@ -89,7 +89,7 @@ UART is not used in this lab — all output is visual via the LCD.
 ![Screen 1](assets/snoopy%20image.png)
 
 **Screen 2: Counter + Shapes**  
-![Screen 2](assets/lab%209%20second%20screen.png)
+![Screen 2](assets/lab%20%20second%20screen.png)
 
 ---
 
