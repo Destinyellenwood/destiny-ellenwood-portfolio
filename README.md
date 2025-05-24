@@ -104,7 +104,7 @@ These projects demonstrate:
 ## Author
 
 **Destiny Ellenwood**  
-📍 Computer Engineering | University of Central Florida  
-🔗 [LinkedIn](https://www.linkedin.com/in/destinyellenwood/) 
+Computer Engineering | University of Central Florida  
+[LinkedIn](https://www.linkedin.com/in/destinyellenwood/) 
 ---
 
