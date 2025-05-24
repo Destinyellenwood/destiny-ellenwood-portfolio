@@ -8,7 +8,7 @@ Welcome! This repository showcases a collection of my hands-on **embedded system
 
 ## 🔧 Repository Structure
 
-### 🟢 [`embedded-systems/`](./embedded-systems/)
+###  [`embedded-systems/`](./embedded-systems/)
 Covers 9 labs using the MSP430FR6989 covering:
 
 | Lab | Topic | Core Features |
@@ -31,7 +31,7 @@ Each lab folder includes:
 
 ---
 
-### 🔴 [`real-time-systems/`](./real-time-systems/)
+###  [`real-time-systems/`](./real-time-systems/)
 RTOS-based applications on the ESP32 using **FreeRTOS**, simulated on Wokwi.
 
 | Project | Description |
@@ -47,7 +47,7 @@ These projects highlight:
 
 ---
 
-### 🧠 [`ucf-cs-projects/`](./ucf-cs-projects/)
+###  [`ucf-cs-projects/`](./ucf-cs-projects/)
 Java and Python-based academic CS projects:
 ucf-cs-projects/cnn-classifer
 | Project | Description |
@@ -64,7 +64,7 @@ These projects demonstrate:
 
 ---
 
-## 💡 Skills Demonstrated
+##  Skills Demonstrated
 
 -  **Microcontroller Configuration**
   - GPIO, ADC12_B, eUSCI UART/I2C/SPI modules
@@ -82,7 +82,7 @@ These projects demonstrate:
 
 ---
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 
 - **Code Composer Studio** (MSP430 projects)
 - **PlatformIO + VSCode** (ESP32 FreeRTOS)
@@ -94,14 +94,14 @@ These projects demonstrate:
 
 ---
 
-## 📷 Preview
+## Preview
 
 <img src="./embedded-systems/Lab09_SPI_LCD_Display/assets/snoopy image.png" alt="LCD Graphics Demo" width="500"/>
 <img src="./embedded-systems/Lab09_SPI_LCD_Display/assets/second screen.png" alt="LCD Graphics Demo" width="500"/>
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Destiny Ellenwood**  
 📍 Computer Engineering | University of Central Florida  
