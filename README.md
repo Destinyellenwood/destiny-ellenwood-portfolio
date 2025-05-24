@@ -6,7 +6,7 @@ Welcome! This repository showcases a collection of my hands-on **embedded system
 
 ---
 
-## 🔧 Repository Structure
+## Repository Structure
 
 ###  [`embedded-systems/`](./embedded-systems/)
 Covers 9 labs using the MSP430FR6989 covering:
