@@ -2,7 +2,7 @@
 
 Welcome! This repository showcases a collection of my hands-on **embedded systems**, **real-time operating systems (RTOS)**, and **computer science** projects developed using the **MSP430FR6989**, **ESP32**, and **C/Python/Java**. These projects span low-level hardware control, RTOS multitasking, data structures, and deep learning applications.
 
-> 🎓 Developed as part of coursework at the University of Central Florida (UCF), these labs demonstrate practical engineering skills across microcontroller programming, real-time systems, algorithms, and AI.
+Developed as part of coursework at the University of Central Florida (UCF), these labs demonstrate practical engineering skills across microcontroller programming, real-time systems, algorithms, and AI.
 
 ---
 
