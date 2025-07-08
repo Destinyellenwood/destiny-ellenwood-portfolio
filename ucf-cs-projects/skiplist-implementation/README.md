@@ -2,7 +2,7 @@
 
 This project implements a **Skip List** in Java as a custom set data structure, offering efficient search, insert, and delete operations with average-case logarithmic time complexity.
 
-## 🚀 Features
+##  Features
 
 - Fully functional skip list implementation (`SkipListSet`)
 - Generic type support (`<T extends Comparable<T>>`)
@@ -15,24 +15,24 @@ This project implements a **Skip List** in Java as a custom set data structure, 
 - Probabilistic height balancing for fast performance
 - Dynamic layer management for scalable storage
 
-## 📂 File Structure
+##  File Structure
 
 skip-list-set/
 └── SkipListSet.java // Core skip list implementation
 
 
-## ⚙️ How Skip Lists Work
+##  How Skip Lists Work
 
 Skip lists are layered linked lists with express lanes. Each element may appear in multiple levels, allowing fast jumps across the structure for efficient search. Insertion and deletion use randomized height selection to maintain balance.
 
-## 💡 Key Concepts
+##  Key Concepts
 
 - **Probabilistic balancing** using coin flips
 - **Logarithmic average-case** complexity for operations
 - **No rebalancing required** (unlike AVL or Red-Black trees)
 - **Space-efficient** compared to other balanced trees
 
-## 🔧 Usage Example
+##  Usage Example
 
 ```java
 SkipListSet<Integer> set = new SkipListSet<>();
@@ -42,7 +42,7 @@ set.contains(10);  // true
 set.remove(10);
 set.contains(10);  // false
 
-🧠 Learning Outcome
+ Learning Outcome
 
 This project demonstrates:
 
