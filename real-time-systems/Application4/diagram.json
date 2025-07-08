@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "author": "Destiny_Ellenwood",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "board-esp32-devkit-c-v4",
+      "id": "esp",
+      "top": 0,
+      "left": -4.76,
+      "attrs": { "builder": "esp-idf" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": 44.4,
+      "left": 176.6,
+      "attrs": { "color": "green" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 157.55,
+      "left": 134.4,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-photoresistor-sensor",
+      "id": "ldr1",
+      "top": 89.6,
+      "left": -239.2,
+      "attrs": {}
+    },
+    {
+      "type": "pushbutton",
+      "id": "BTN1",
+      "top": 60,
+      "left": 150,
+      "attrs": { "bounce": "0", "color": "blue" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": -41.8,
+      "left": 134.4,
+      "attrs": { "color": "blue", "xray": "1" }
+    },
+    { "type": "wokwi-led", 
+      "id": "led2",
+      "top": 92.4, 
+      "left": 243.8, 
+      "attrs": { "color": "red" } },
+    {
+      "type": "wokwi-resistor",
+      "id": "r2",
+      "top": 186.35,
+      "left": 115.2,
+      "attrs": { "value": "220" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "led1:C", "esp:GND.3", "black", [ "v0" ] ],
+    [ "led1:A", "r1:2", "green", [ "v0" ] ],
+    [ "r1:1", "esp:2", "green", [ "v0" ] ],
+    [ "ldr1:VCC", "esp:3V3", "red", [ "h28.8", "v-9.6" ] ],
+    [ "ldr1:GND", "esp:CMD", "black", [ "h28.8", "v28.4" ] ],
+    [ "ldr1:AO", "esp:32", "green", [ "h48", "v-39.1" ] ],
+    [ "BTN1:1", "esp:GND.1", "black", [ "v0" ] ],
+    [ "BTN1:2", "esp:4", "blue", [ "v0" ] ],
+    [ "esp:GND.2", "btn1:2.l", "black", [ "v0" ] ],
+    [ "esp:4", "btn1:1.l", "blue", [ "h0" ] ],
+    [ "led2:A", "r2:2", "green", [ "v0" ] ],
+    [ "r2:1", "esp:15", "green", [ "v0" ] ],
+    [ "esp:GND.3", "led2:C", "black", [ "h67.2", "v48" ] ]
+  ],
+  "dependencies": {}
+}
