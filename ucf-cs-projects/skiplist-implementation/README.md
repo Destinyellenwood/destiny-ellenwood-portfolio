@@ -32,17 +32,8 @@ Skip lists are layered linked lists with express lanes. Each element may appear 
 - **No rebalancing required** (unlike AVL or Red-Black trees)
 - **Space-efficient** compared to other balanced trees
 
-##  Usage Example
 
-```java
-SkipListSet<Integer> set = new SkipListSet<>();
-set.add(10);
-set.add(20);
-set.contains(10);  // true
-set.remove(10);
-set.contains(10);  // false
-
- Learning Outcome
+## Learning Outcome
 
 This project demonstrates:
 
@@ -53,3 +44,14 @@ This project demonstrates:
 - Layered node management
 
 - Custom collection class creation
+
+
+##  Usage Example
+
+```java
+SkipListSet<Integer> set = new SkipListSet<>();
+set.add(10);
+set.add(20);
+set.contains(10);  // true
+set.remove(10);
+set.contains(10);  // false
