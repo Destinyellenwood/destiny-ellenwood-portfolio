@@ -1,6 +1,6 @@
 # Projects Portfolio
 
-Welcome! This repository showcases a collection of my hands-on digital systems and embedded engineering projects, developed as part of my Computer Engineering coursework at the University of Central Florida (UCF). While my background includes RTOS development, microcontroller programming, and AI applications, my primary focus is on **Digital VLSI Design**.
+Welcome! This repository showcases a collection of my hands-on digital systems and embedded engineering projects, some developed as part of my Computer Engineering coursework at the University of Central Florida (UCF) and others on my own. While my background includes RTOS development, microcontroller programming, and AI applications, my primary focus is on **Digital VLSI Design**.
 
 These projects span hardware description in Verilog, FPGA-based design using the Basys 3 board, real-time systems on the ESP32, and low-level embedded C programming with the MSP430FR6989. Each project demonstrates a mix of theoretical knowledge and practical implementation across RTL design, embedded interfacing, and hardware-software integration.
 
