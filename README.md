@@ -1,8 +1,18 @@
 # Projects Portfolio
 
-Welcome! This repository showcases a collection of my hands-on **embedded systems**, **real-time operating systems (RTOS)**, and **computer science** projects developed using the **MSP430FR6989**, **ESP32**, and **C/Python/Java**. These projects span low-level hardware control, RTOS multitasking, data structures, and deep learning applications.
+Welcome! This repository showcases a collection of my hands-on digital systems and embedded engineering projects, developed as part of my Computer Engineering coursework at the University of Central Florida (UCF). While my background includes RTOS development, microcontroller programming, and AI applications, my primary focus is on **Digital VLSI Design**.
 
-Developed as part of coursework at the University of Central Florida (UCF), these labs demonstrate practical engineering skills across microcontroller programming, real-time systems, algorithms, and AI.
+These projects span hardware description in Verilog, FPGA-based design using the Basys 3 board, real-time systems on the ESP32, and low-level embedded C programming with the MSP430FR6989. Each project demonstrates a mix of theoretical knowledge and practical implementation across RTL design, embedded interfacing, and hardware-software integration.
+
+## Key Areas of Focus
+- Digital VLSI Design (RTL logic, FSMs, RAM, datapaths)
+- Verilog + FPGA development using Vivado
+- Embedded C with MSP430 and ESP32
+- Real-Time Operating Systems (FreeRTOS)
+- Deep Learning and Python-based experiments
+
+This repository continues to grow as I expand my skills in digital hardware systems, with the goal of designing efficient, low-power, and high-performance logic for real-world applications in defense, aerospace, and beyond.
+
 
 ---
 
