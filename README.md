@@ -46,10 +46,10 @@ RTOS-based applications on the ESP32 using **FreeRTOS**, simulated on Wokwi.
 
 | Project | Description |
 |---------|-------------|
-| [`Application1_LED_Blinking`](./real-time-systems/Application1_LED_Blinking) | Two tasks: blinking LED (2 Hz) and UART print (10 sec) using `vTaskDelay` |
-| [`Application2_UART_Telemetry`](./real-time-systems/Application2_UART_Telemetry) | Adds `vTaskDelayUntil()` and prioritization to maintain periodic telemetry |
-| [`Application3_SensorLogger`](./real-time-systems/Application3_SensorLogger) | Adds a light sensor, moving average, and a new task triggered by crossing a lux threshold (uses counting semaphore + mutex) |
-| [`Application4_SpaceSystem`](./real-time-systems/Application4_SpaceSystem) | Space probe simulation with binary + counting semaphores, mutexes, task prioritization, software debounce, and log compression |
+| [`Application1`](./real-time-systems/Application1) | Two tasks: blinking LED (2 Hz) and UART print (10 sec) using `vTaskDelay` |
+| [`Application2`](./real-time-systems/Application2) | Adds `vTaskDelayUntil()` and prioritization to maintain periodic telemetry |
+| [`Application3`](./real-time-systems/Application3) | Adds a light sensor, moving average, and a new task triggered by crossing a lux threshold (uses counting semaphore + mutex) |
+| [`Application4`](./real-time-systems/Application4) | Space probe simulation with binary + counting semaphores, mutexes, task prioritization, software debounce, and log compression |
 
 
 ---
