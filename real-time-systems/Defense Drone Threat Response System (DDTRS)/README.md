@@ -7,14 +7,14 @@ Mission: Detect flash-based threats, respond autonomously, and allow
 real-time operator override via button and web-based HTTP interface.
 ---
 
-** Company Synopsis:**
+## Company Synopsis: ##
 Raytheon is a leading defense contractor that builds advanced autonomous systems for national security, including drones and missile defense systems. 
 In this project, I built a real-time prototype for a Defense Drone Threat Response System (DDTRS), which reacts to light-based threats like muzzle flashes or laser targeting. 
 The system processes sensor data in real time and gives both autonomous and manual override capabilities through a pushbutton and web interface. 
 Real-time constraints are critical because delays in detection or response could compromise the drone’s mission or safety.
 
 ---
-** Task Table:**
+## Task Table: ##
 
 sensor_task: Runs every 500 ms (Hard). If this misses its deadline, the system might fail to detect a threat on time.
 
@@ -30,14 +30,14 @@ isr_override(): Triggered by falling edge interrupt (Hard). If this fails, an em
 
 ---
 
-** Scheduler Fit: ** 
+## Scheduler Fit: ## 
 All hard tasks have higher priority than soft tasks. response_task is priority 4, sensor_task is 3, and button_watch_task is 3. Soft tasks like heartbeat_task are priority 1.
 A timestamp from the serial monitor shows that sensor reading and response log happen within the same 500 ms window. That confirms I'm meeting the deadline. For example:
 [Sensor] Lux = 185 followed directly by ⚠️ THREAT DETECTED! Lux = 185.
 
 ---
 
-Race-Proofing:
+ ## Race-Proofing: ##
 Shared resources like current_lux and all Serial output are protected with xLogMutex to avoid race conditions.
 Example: in sensor_task, I do:
 
@@ -48,24 +48,26 @@ Without the mutex, if response_task or the web server were logging at the same t
 
 ---
 
-** Worst-Case Spike: **
+## Worst-Case Spike: ##
 I simulated continuous flashing light (lux values < threshold) and rapid button presses. Even when the sensor triggered constantly, response_task was able to handle all semaphores without delay.
 There was about 100 ms margin before response_task would start to fall behind. That shows the system can still meet deadlines under high load.
 
 ---
 
-** Design Trade-Off: **
+## Design Trade-Off: ##
 I chose not to implement a dynamic or real-time updating HTML interface with AJAX to avoid unpredictable memory usage and processing delays.
 In a defense setting like Raytheon’s, timing and reliability are more important than fancy UI. A simple static page with command links ensures fast, deterministic interaction.
 
 ---
 
-** AI Use Disclosure: **
+## AI Use Disclosure: ##
 I used ChatGPT (OpenAI) to brainstorm task structure, help implement the ISR logic, write the HTML for the web server, and verify deadline requirements.
 I fully reviewed and customized all code. Any AI-assisted sections were tested for timing and correctness. I documented AI use in comments and here for full transparency.
 
 ---
-** Concurrency Diagram **
+## Concurrency Diagram ##
+
+
 +-------------------------+            +--------------------------+
 |     heartbeat_task      |            |      sensor_task         |
 |   (1000ms, Soft)        |            |   (500ms, Hard)          |
@@ -112,7 +114,8 @@ I fully reviewed and customized all code. Any AI-assisted sections were tested f
          ^
          |
      ISR_BUTTON_PIN
-      
+---
+
 Legend: DDTRS
 
 Hard RT = Hard Real-Time task (must meet strict deadlines for safety or mission-critical actions)
