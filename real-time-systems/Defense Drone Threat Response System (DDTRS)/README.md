@@ -5,7 +5,7 @@ UCF - Real Time Systems - Su 2025
 Company Context: Raytheon Autonomous Systems Division
 Mission: Detect flash-based threats, respond autonomously, and allow
 real-time operator override via button and web-based HTTP interface.
-
+---
 
 ** Company Synopsis:**
 Raytheon is a leading defense contractor that builds advanced autonomous systems for national security, including drones and missile defense systems. 
@@ -13,7 +13,7 @@ In this project, I built a real-time prototype for a Defense Drone Threat Respon
 The system processes sensor data in real time and gives both autonomous and manual override capabilities through a pushbutton and web interface. 
 Real-time constraints are critical because delays in detection or response could compromise the drone’s mission or safety.
 
-
+---
 ** Task Table:**
 
 sensor_task: Runs every 500 ms (Hard). If this misses its deadline, the system might fail to detect a threat on time.
