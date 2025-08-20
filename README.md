@@ -76,6 +76,11 @@ These projects demonstrate:
 
 ##  Skills Demonstrated
 
+- **Digital Systems & VLSI**
+  - RTL design in Verilog (combinational & sequential logic)
+  - Testbench development and simulation for verification
+  - Memory design (RAM/ROM) and datapath components (adders, multiplexers, decoders)
+  - FPGA prototyping on Basys 3 using Xilinx Vivado
 -  **Microcontroller Configuration**
   - GPIO, ADC12_B, eUSCI UART/I2C/SPI modules
 -  **Peripheral Communication**
