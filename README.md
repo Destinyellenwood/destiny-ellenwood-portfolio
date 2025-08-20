@@ -54,7 +54,7 @@ RTOS-based applications on the ESP32 using **FreeRTOS**, simulated on Wokwi.
 
 ---
 ###  [`deep-learning/`](./deep-learning/)
-| [`cnn-classifier`](deeplearning/) | **TensorFlow CNN** for MNIST digit recognition (>98% accuracy) |
+| [`cnn-classifier`](deep-learning/) | **TensorFlow CNN** for MNIST digit recognition (>98% accuracy) |
 
 ---
 ###  [`ucf-cs-projects/`](./ucf-cs-projects/)
