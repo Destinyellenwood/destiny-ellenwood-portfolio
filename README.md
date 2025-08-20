@@ -56,6 +56,8 @@ RTOS-based applications on the ESP32 using **FreeRTOS**, simulated on Wokwi.
 ###  [`deep-learning/`](./deep-learning/)
 | [`cnn-classifier`](deep-learning/) | **TensorFlow CNN** for MNIST digit recognition (>98% accuracy) |
 
+This projects demonstrate:
+- Python ML workflows with TensorFlow
 ---
 ###  [`ucf-cs-projects/`](./ucf-cs-projects/)
 Java and Python-based academic CS projects:
@@ -68,7 +70,6 @@ ucf-cs-projects/cnn-classifer
 These projects demonstrate:
 - Object-oriented design (Java)
 - Data structures and algorithm implementation
-- Python ML workflows with TensorFlow
 - Benchmarking and analysis of search tree performance
 
 ---
