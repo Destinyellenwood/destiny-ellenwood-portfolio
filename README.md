@@ -94,6 +94,7 @@ These projects demonstrate:
 
 ##  Tools & Technologies
 
+- **Vivado**
 - **Code Composer Studio** (MSP430 projects)
 - **PlatformIO + VSCode** (ESP32 FreeRTOS)
 - **Wokwi** (ESP32 simulation)
