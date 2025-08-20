@@ -7,6 +7,7 @@ These projects span hardware description in Verilog, FPGA-based design using the
 ## Key Areas of Focus
 - Digital VLSI Design (RTL logic, FSMs, RAM, datapaths)
 - Verilog + FPGA development using Vivado
+- Hardware Security (secure architectures, trusted CAD/EDA workflows)
 - Embedded C with MSP430 and ESP32
 - Real-Time Operating Systems (FreeRTOS)
 - Deep Learning and Python-based experiments
