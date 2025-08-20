@@ -2,7 +2,7 @@
 
 This folder contains projects focused on **hardware-based threats, side-channel analysis, and detection methods**, aligning with active research in **secure microelectronics and CAD for security**.  
 
-⚡ **Note:** I am currently taking a dedicated course in **Hardware Security and Trusted Circuit Design** (Fall 2025). This section will be **frequently updated** as I complete each project milestone.
+ **Note:** I am currently taking a dedicated course in **Hardware Security and Trusted Circuit Design** (Fall 2025). This section will be **frequently updated** as I complete each project milestone.
 
 ---
 
